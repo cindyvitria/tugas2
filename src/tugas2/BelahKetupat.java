@@ -23,6 +23,13 @@ public class BelahKetupat {
         sisi3=4;
         sisi4=4;   
     }
+
+    public BelahKetupat(int sisi1, int sisi2, int sisi3, int sisi4) {
+        this.sisi1 = sisi1;
+        this.sisi2 = sisi2;
+        this.sisi3 = sisi3;
+        this.sisi4 = sisi4;
+    }
     
     void cetakinfo() {
         System.out.println("sisi1 = "+sisi1);
@@ -37,5 +44,5 @@ public class BelahKetupat {
     }
     void cetakKeliling(){
         System.out.println("Kelilingnya adalah: "+HitungKeliling());
-    })
+    }
 }

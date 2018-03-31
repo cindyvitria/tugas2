@@ -16,6 +16,13 @@ public class BelahKetupat {
     int sisi2;
     int sisi3;
     int sisi4;
+
+    public BelahKetupat() {
+        sisi1=4;
+        sisi2=4;
+        sisi3=4;
+        sisi4=4;   
+    }
     
     void cetakinfo() {
         System.out.println("sisi1 = "+sisi1);

@@ -18,5 +18,7 @@ public class BelahKetupatAksi {
         BK1.sisi4 = 2;
         
         BK1.cetakinfo();
+        
+        System.out.println("Keliling BelahKetupat = "+BK1.HitungKeliling());
     }
 }

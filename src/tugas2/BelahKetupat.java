@@ -21,6 +21,11 @@ public class BelahKetupat {
         System.out.println("sisi1 = "+sisi1);
         System.out.println("sisi2 = "+sisi2);
         System.out.println("sisi3 = "+sisi3);
-        System.out.println("sisi4 = "+sisi4);
+        System.out.println("sisi4 = "+sisi4);    
+    }
+    int HitungKeliling(){
+        int Keliling;
+        Keliling=sisi1+sisi2+sisi3+sisi4;
+        return Keliling;
     }
 }

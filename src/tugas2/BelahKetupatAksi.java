@@ -11,6 +11,6 @@ package tugas2;
  */
 public class BelahKetupatAksi {
     public static void main(String[] args) {
-        
+        BelahKetupat BK1 = new BelahKetupat(); 
     }
 }

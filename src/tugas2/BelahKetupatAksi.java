@@ -12,5 +12,9 @@ package tugas2;
 public class BelahKetupatAksi {
     public static void main(String[] args) {
         BelahKetupat BK1 = new BelahKetupat(); 
+        BK1.sisi1 = 2;
+        BK1.sisi2 = 2;
+        BK1.sisi3 = 2;
+        BK1.sisi4 = 2;
     }
 }

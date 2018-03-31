@@ -28,4 +28,7 @@ public class BelahKetupat {
         Keliling=sisi1+sisi2+sisi3+sisi4;
         return Keliling;
     }
+    void cetakKeliling(){
+        System.out.println("Kelilingnya adalah: "+HitungKeliling());
+    })
 }

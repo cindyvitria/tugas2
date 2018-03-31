@@ -16,5 +16,7 @@ public class BelahKetupatAksi {
         BK1.sisi2 = 2;
         BK1.sisi3 = 2;
         BK1.sisi4 = 2;
+        
+        BK1.cetakinfo();
     }
 }

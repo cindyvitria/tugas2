@@ -21,5 +21,11 @@ public class BelahKetupatAksi {
         
         System.out.println("Keliling BelahKetupat = "+BK1.HitungKeliling());
         BK1.cetakKeliling();
+        
+        BelahKetupat BK2 = new BelahKetupat();
+        BK2.cetakinfo();
+ 
+        BelahKetupat BK3 = new BelahKetupat(3,3,3,3);
+        BK3.cetakinfo();
     }
 }
